@@ -1,4 +1,4 @@
-package com.enesthedev.employee.app;
+package com.enesthedev.employee;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
