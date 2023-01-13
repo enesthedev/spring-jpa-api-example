@@ -1,4 +1,4 @@
-package com.enesthedev.customer.config;
+package com.enesthedev.example.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

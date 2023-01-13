@@ -1,4 +1,4 @@
-package com.enesthedev.customer.dto.Customer;
+package com.enesthedev.example.dto.Customer;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -9,10 +9,10 @@
         <relativePath/>
     </parent>
     <groupId>com.enesthedev</groupId>
-    <artifactId>customer</artifactId>
+    <artifactId>example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Customer</name>
-    <description>Customer</description>
+    <name>Example Project</name>
+    <description>Description text of Example Project</description>
     <properties>
         <java.version>11</java.version>
     </properties>

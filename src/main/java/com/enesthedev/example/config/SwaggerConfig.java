@@ -1,4 +1,4 @@
-package com.enesthedev.customer.config;
+package com.enesthedev.example.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

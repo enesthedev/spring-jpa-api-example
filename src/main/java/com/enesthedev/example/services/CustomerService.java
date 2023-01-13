@@ -1,6 +1,6 @@
-package com.enesthedev.customer.services;
+package com.enesthedev.example.services;
 
-import com.enesthedev.customer.entities.Customer;
+import com.enesthedev.example.entities.Customer;
 
 import java.util.List;
 

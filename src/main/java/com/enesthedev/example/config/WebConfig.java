@@ -1,4 +1,4 @@
-package com.enesthedev.customer.config;
+package com.enesthedev.example.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

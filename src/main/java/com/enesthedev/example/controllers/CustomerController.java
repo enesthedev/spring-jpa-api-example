@@ -1,10 +1,10 @@
-package com.enesthedev.customer.controllers;
+package com.enesthedev.example.controllers;
 
-import com.enesthedev.customer.dto.Customer.CustomerCreateDto;
-import com.enesthedev.customer.dto.Customer.CustomerDto;
-import com.enesthedev.customer.dto.Customer.CustomerUpdateDto;
-import com.enesthedev.customer.entities.Customer;
-import com.enesthedev.customer.services.CustomerService;
+import com.enesthedev.example.dto.Customer.CustomerCreateDto;
+import com.enesthedev.example.dto.Customer.CustomerDto;
+import com.enesthedev.example.dto.Customer.CustomerUpdateDto;
+import com.enesthedev.example.entities.Customer;
+import com.enesthedev.example.services.CustomerService;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

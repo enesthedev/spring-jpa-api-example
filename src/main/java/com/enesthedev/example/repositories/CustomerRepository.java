@@ -1,6 +1,6 @@
-package com.enesthedev.customer.repositories;
+package com.enesthedev.example.repositories;
 
-import com.enesthedev.customer.entities.Customer;
+import com.enesthedev.example.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
