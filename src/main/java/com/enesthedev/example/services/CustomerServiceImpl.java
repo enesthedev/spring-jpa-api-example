@@ -27,13 +27,15 @@ public class CustomerServiceImpl implements CustomerService {
     public Customer update(Customer customer) {
         Customer existing = customerRepository.findById(customer.getId())
                 .orElseThrow(() -> new EntityNotFoundException("Customer not found"));
+
         modelMapper.map(customer, existing);
         return customerRepository.save(existing);
     }
 
     @Override
     public Customer get(Long id) {
-        return customerRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("Customer not found"));
+        return customerRepository.findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("Customer not found"));
     }
 
     @Override
