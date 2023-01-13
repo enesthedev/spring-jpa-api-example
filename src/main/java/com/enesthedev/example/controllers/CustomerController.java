@@ -5,6 +5,7 @@ import com.enesthedev.example.dto.Customer.CustomerDto;
 import com.enesthedev.example.dto.Customer.CustomerUpdateDto;
 import com.enesthedev.example.entities.Customer;
 import com.enesthedev.example.services.CustomerService;
+import com.enesthedev.example.utils.MapperUtil;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -47,9 +48,9 @@ public class CustomerController {
     }
 
     @GetMapping("/")
-    public ResponseEntity<CustomerDto> get() {
-        List<Customer> customer = customerService.get();
-        CustomerDto customerDto = modelMapper.map(customer, CustomerDto.class);
+    public ResponseEntity<List<CustomerDto>> get() {
+        List<Customer> customers = customerService.get();
+        List<CustomerDto> customerDto = MapperUtil.mapList(customers, CustomerDto.class);
         return new ResponseEntity<>(customerDto, HttpStatus.OK);
     }
 
