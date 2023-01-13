@@ -1,4 +1,4 @@
-package com.enesthedev.customer.entities;
+package com.enesthedev.example.entities;
 
 import lombok.Getter;
 import lombok.Setter;

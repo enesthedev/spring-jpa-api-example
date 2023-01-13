@@ -1,7 +1,7 @@
-package com.enesthedev.customer.services;
+package com.enesthedev.example.services;
 
-import com.enesthedev.customer.entities.Customer;
-import com.enesthedev.customer.repositories.CustomerRepository;
+import com.enesthedev.example.entities.Customer;
+import com.enesthedev.example.repositories.CustomerRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 

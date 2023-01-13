@@ -1,4 +1,4 @@
-package com.enesthedev.customer.dto.Customer;
+package com.enesthedev.example.dto.Customer;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -7,7 +7,7 @@ import java.sql.Date;
 
 @Getter
 @Setter
-public class CustomerUpdateDto {
+public class CustomerDto {
     private Long id;
     private String firstName;
     private String lastName;

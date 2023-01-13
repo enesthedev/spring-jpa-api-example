@@ -1,4 +1,4 @@
-package com.enesthedev.customer.config;
+package com.enesthedev.example.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -18,6 +18,7 @@ public class SwaggerConfig {
     private String applicationTitle;
     @Value("${application.description}")
     private String applicationDescription;
+
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
@@ -28,6 +29,7 @@ public class SwaggerConfig {
                 .pathMapping("/")
                 .apiInfo(apiEndPointsInfo());
     }
+
     private ApiInfo apiEndPointsInfo() {
         return new ApiInfoBuilder()
                 .title(this.applicationTitle)
@@ -36,5 +38,4 @@ public class SwaggerConfig {
                 .version("1")
                 .build();
     }
-
 }
