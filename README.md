@@ -24,5 +24,5 @@ This project based on MVC pattern. You can find out all of config, controllers, 
 - Swagger integration
 - One entity example
 
-### Cons
+### Cons
 - No tests
