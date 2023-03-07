@@ -21,5 +21,5 @@ Bu proje MVC mimarisini baz alır. Gerekli tüm klasörleri bir obje örneği il
 - JPA desteği
 - Swagger entegrasyonu
 
-### Kötü tarafları
+### Kötü Tarafları
 - Test bulunmuyor, future/tests kısmında bazı yazılan testler mevcut. Geliştirmek isterseniz yardımcı olabilirsiniz.
